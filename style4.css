@@ -8,13 +8,23 @@ header {
 }
 
 main {
-	max-width: 100vh;
+	width: 100vw;
+	height: 100vh;
 	display: flex;
+	background-color: red;
+}
+.left{
+	background-color: green;
+	flex-direction: column;
+	display: flex;
+	
 }
 
 #tag {
-	font-weight: 600;
-	font-size: 60px;
+	font-weight: 400;
+	font-size: 20px;
+	padding: 8px;
+	text-align: center;
 }
 
 footer {
