@@ -1,31 +1,34 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
-header{
-    background-color: blueviolet;
-    display: flex;
-}
-
-main{
-    max-width: 100vh;
-    display: flex;
+header {
+	background-color: blueviolet;
+	display: flex;
 }
 
-#tag{
-    font-weight: 600;
-    font-size: 60px;
+main {
+	max-width: 100vh;
+	display: flex;
 }
 
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#tag {
+	font-weight: 600;
+	font-size: 60px;
 }
 
-.right{
-    background-image: url(./images/right.png);
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-.right img{
-    justify-content: last baseline;
+
+.right {
+	background-image: url(./images/right.png);
+}
+.right img {
+	justify-content: last baseline;
+}
+boy {
+	background-color: red;
 }
